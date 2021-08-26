@@ -1,11 +1,11 @@
 const Card = () => {
     const view = `
-        <div class="Card-main">
+        <div class="Card">
             <div class="Card-image">
                 <img src="" alt="Image">
             </div>
             <div class="Card-subtitle">
-                <div class="line"></div>
+                <div class="Card-subtitle--line"></div>
                 <p>GET STARTED</p>
             </div>
             <div class="Card-title">

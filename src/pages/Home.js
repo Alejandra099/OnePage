@@ -11,7 +11,6 @@ const Home = () => {
             </div>
             <div class="Container-text">
                 <p>Scroll Down</p>
-                <div><a href="#">!</a></div>
             </div>
         </div>
     `;
