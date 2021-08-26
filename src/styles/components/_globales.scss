@@ -1,0 +1,17 @@
+$text-font: 'open-sans', sans-serif;
+$title-font: 'Abhaya Libre', sans-serif;
+$primary-color: #403527;
+$secundary-color: #F2913D;
+$dark-secundary-color: #D96E30;
+$light-secundary-color: #F2AB6D;
+$white-color: #FAFAFA;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #403527;
+}

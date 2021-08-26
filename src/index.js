@@ -3,6 +3,8 @@ import Footer from './templates/Footer';
 import Home from './pages/Home';
 import Card from './templates/Card';
 import Error404 from './pages/Error404';
+//import './styles/main.css';
+import './styles/main.scss';
 
 (function App() {
   const header = null || document.getElementById('header');
