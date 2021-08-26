@@ -1,7 +1,7 @@
 const Home = () => {
     const view = `
         <div class="Container">
-            <div class="Container-text">
+            <div class="Container-subtitle">
                 <div class="line"></div>
                 <p>A HIKING GUIDE</p>
             </div>
