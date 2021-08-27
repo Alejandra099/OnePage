@@ -1,7 +1,7 @@
 const Footer = () => {
     const view = `
-        <div class="Footer-main">
-            <div class="Header-logo">
+        <div class="Footer">
+            <div class="Footer-logo">
                 <h1>
                     <a href="#">MNTN</a>
                 </h1>
@@ -18,6 +18,7 @@ const Footer = () => {
                 </p>
             </div>
             <div class="Footer-nav">
+                <h2>More on The Blog</h2>
                 <nav>
                     <ul>
                         <li><a href="#">About MNTN</a></li>
