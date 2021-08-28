@@ -15,29 +15,43 @@
         &--line {
             width: 30px;
             height: 2px;
-            background-color: tan;
+            background-color: $light-secundary-color;
             margin-right: 10px;
             margin-top: 25px;
         }
         p {
-            color: tan;
-        }
-        a {
-            text-decoration: none;
-            color: tan;
-            margin-left: 20px;
+            @include fonts($text-font);
+            color: $light-secundary-color;
         }
     }
     &-title {
-        h1 {
-            font-size: xx-large;
-            margin: 0; 
-            color: white;
+        padding-bottom: 10px;
+        h2 {
+            @include fonts($title-font);
+            font-size: 40px;
+            font-weight: 500; 
+            color: $white-color;
+            margin: 0;
         }
     }
     &-text {
         p {
-            color: white;
+            font-family: $text-font;
+            font-weight: 400;
+            color: $white-color;
+            line-height: 25px;
+        }
+        &--bottom {
+            display: flex;
+            p {
+                font-family: $text-font;
+                color: $light-secundary-color;
+            }
+            a {
+                text-decoration: none;
+                color: $light-secundary-color;
+                margin-left: 20px;
+            }
         }
     }
 }

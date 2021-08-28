@@ -5,31 +5,35 @@
     padding: 10px 30px;
     &-subtitle {
         display: flex;
-        color: tan;
+        @include fonts($text-font);
+        color: $light-secundary-color;
         &--line {
             width: 30px;
             height: 2px;
-            background-color: tan;
+            background-color: $light-secundary-color;
             margin-right: 10px;
             margin-top: 25px;
         }
     }
     &-title {
         margin-top: 10px;
-        h1 {
-            font-size: xx-large;
+        h2 {
+            @include fonts($title-font);
+            font-size: 45px;
+            line-height: 45px;
             margin: 0; 
-            color: white;
+            color: $white-color;
         }
         .color {
-            color: tan;
+            color: $light-secundary-color;
         }
     }
     &-text {
         display: flex;
         margin-top: 10px;
         p {
-            color: tan;
+            font-family: $text-font;
+            color: $light-secundary-color;
         }
     }
 }

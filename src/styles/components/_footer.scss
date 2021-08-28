@@ -3,25 +3,28 @@
     &-logo {
         a {
             text-decoration: none;
-            color: white;
+            color: $white-color;
         }
     }
     &-description {
         p {
-            color: white;
+            font-family: $text-font;
+            color: $white-color;
         }
     }
     &-links {
         padding-top: 10px;
         a {
+            font-family: $text-font;
             text-decoration: none;
-            color: rgba($color: white, $alpha: 0.5);
+            color: rgba($color: $white-color, $alpha: 0.5);
         }
     }
     &-nav {
         padding-top: 10px;
         h2 {
-            color: tan;
+            font-family: $text-font;
+            color: $light-secundary-color
         }
         ul{
             list-style: none;
@@ -33,7 +36,8 @@
         }
         ul li a {
             text-decoration: none;
-            color: white;
+            font-family: $text-font;
+            color: $white-color;
         }
     }
 }

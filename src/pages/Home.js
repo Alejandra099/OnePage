@@ -6,8 +6,8 @@ const Home = () => {
                 <p>A HIKING GUIDE</p>
             </div>
             <div class="Container-title">
-                <h1>Be Prepared For The</h1>
-                <h1 class="color">Mountains And Beyond!</h1>
+                <h2>Be Prepared For The</h2>
+                <h2 class="color">Mountains And Beyond!</h2>
             </div>
             <div class="Container-text">
                 <p>Scroll Down</p>

@@ -7,6 +7,7 @@
     justify-content: space-between;
     &-logo {
         a {
+            font-family: $text-font;
             text-decoration: none;
             color: white;
         }

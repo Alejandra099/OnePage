@@ -1,10 +1,21 @@
-$text-font: 'open-sans', sans-serif;
-$title-font: 'Abhaya Libre', sans-serif;
+$text-font: 'Open Sans', sans-serif;
+$title-font: 'Abhaya Libre', serif;
 $primary-color: #403527;
 $secundary-color: #F2913D;
 $dark-secundary-color: #D96E30;
 $light-secundary-color: #F2AB6D;
 $white-color: #FAFAFA;
+
+@mixin fonts($font) {
+    @if $font == $title-font {
+        font-family: $title-font;
+    } @else {
+        font-family: $text-font;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -13,5 +24,5 @@ $white-color: #FAFAFA;
 body {
     margin: 0;
     padding: 0;
-    background-color: #403527;
+    background-color: $primary-color;
 }

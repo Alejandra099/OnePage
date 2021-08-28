@@ -9,7 +9,7 @@ const Card = () => {
                 <p>GET STARTED</p>
             </div>
             <div class="Card-title">
-                <h1>What level of hiker are you?</h1>
+                <h2>What level of hiker are you?</h2>
             </div>
             <div class="Card-text">
                 <p>Determining what level of hiker you
@@ -24,7 +24,7 @@ const Card = () => {
                     expert backpacker?
                 </p>
             </div>
-            <div class="Card-subtitle">
+            <div class="Card-text--bottom">
                 <p>read more</p>
                 <div><a href="#">-></a></div>
             </div>
