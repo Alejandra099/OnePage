@@ -1,4 +1,4 @@
-const Home = () => {
+const Home = (imageHeader) => {
     const view = `
         <div class="Container">
             <div class="Container-subtitle">

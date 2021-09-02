@@ -6,6 +6,7 @@ $dark-secundary-color: #D96E30;
 $light-secundary-color: #F2AB6D;
 $white-color: #FAFAFA;
 
+
 @mixin fonts($font) {
     @if $font == $title-font {
         font-family: $title-font;
@@ -26,7 +27,8 @@ body {
     padding: 0;
     background-color: $primary-color;
 }
+main{
+    background-image: url("/src/utils/images/header.jpg");
+    background-size: cover;
+}
 
-//main {
-    //background-image: url(../../utils/images/header.jpg);
-//}

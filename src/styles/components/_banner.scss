@@ -30,6 +30,7 @@
     }
     &-text {
         display: flex;
+        position: relative;
         margin-top: 10px;
         p {
             font-family: $text-font;
@@ -37,3 +38,11 @@
         }
     }
 }
+
+// .gradient {
+//     position: absolute;
+//     top: 80px;
+//     width: 100%;
+//     height: 500px;
+//     background-image: linear-gradient($primary-color 50%, $primary-color 100%);
+// }
