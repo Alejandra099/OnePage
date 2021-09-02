@@ -1,8 +1,8 @@
-const Card = () => {
+const Card = (image) => {
     const view = `
         <div class="Card">
             <div class="Card-image">
-                <img src="" alt="Image">
+                <img src="${image}" alt="Image">
             </div>
             <div class="Card-subtitle">
                 <div class="Card-subtitle--line"></div>
