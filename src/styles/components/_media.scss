@@ -1,0 +1,45 @@
+@media screen and (min-width: 800px) {
+    .Header {
+        &-nav {
+            overflow: hidden;
+            &--links {
+                display: block;
+            }
+            a {
+                float: left;
+                text-align: center;
+                padding: 20px 16px 0 16px;
+                font-size: 18px;
+                @include fonts($text-font);
+                text-decoration: none;
+                color: $white-color;
+            }
+            a:hover {
+                color: $light-secundary-color;
+            }
+            .material-icons.md-36 { 
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Header {
+        &-nav {
+            .responsive {
+                position: relative;
+            }
+            .responsive a .material-icons.md-36 {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+    }
+}

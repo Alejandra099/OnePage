@@ -25,8 +25,10 @@ const Card = (image) => {
                 </p>
             </div>
             <div class="Card-text--bottom">
-                <p>read more</p>
-                <div><a href="#">-></a></div>
+                <a href="#">read more </a>
+                <a href="#"><span class="material-icons">
+                east
+                </span></a>
             </div>
         </div>
     `;

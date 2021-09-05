@@ -2,14 +2,16 @@ const Header = () => {
     const view = `
         <div class="Header">
             <div class="Header-logo">
-                <h1>
-                    <a href="#">MNTN</a>
-                </h1>
+                <a href="#">MNTN</a>
             </div>
-            <div class="Header-nav">
-                <div class="Header-nav--line"></div>
-                <div class="Header-nav--line"></div>
-                <div class="Header-nav--line"></div>
+            <div class="Header-nav" id="nav" >
+                <a href="#" class="Header-nav--links">Home</a>
+                <a href="#" class="Header-nav--links">News</a>
+                <a href="#" class="Header-nav--links">Contact</a>
+                <a href="#" class="Header-nav--links">About</a>
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <span class="material-icons md-36">menu</span>
+                </a>
             </div>
         </div>
     `;

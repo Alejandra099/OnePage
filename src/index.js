@@ -23,4 +23,3 @@ import imageCard3 from './utils/images/card3.jpg';
   const footer = null || document.getElementById('footer');
   footer.innerHTML = Footer();
 })();
-
