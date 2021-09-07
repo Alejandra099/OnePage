@@ -1,3 +1,5 @@
+
+
 const Header = () => {
     const view = `
         <div class="Header">
@@ -17,5 +19,6 @@ const Header = () => {
     `;
     return view;
 };
+
 
 export default Header;

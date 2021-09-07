@@ -1,4 +1,4 @@
-.container {
+.cards {
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
@@ -11,7 +11,7 @@ img {
 }
 
 .Card {
-    max-width: 430px;
+    max-width: 360px;
     padding: 10px 30px;
     &-subtitle {
         display: flex;

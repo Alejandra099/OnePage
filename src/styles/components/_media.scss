@@ -1,5 +1,6 @@
 @media screen and (min-width: 800px) {
     .Header {
+        padding: 30px 60px 0px 60px;
         &-nav {
             overflow: hidden;
             &--links {
@@ -42,4 +43,53 @@
             }
         }
     }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        background-position-y: bottom;
+    }
+    .Footer {
+        display: flex;
+        padding: 40px 60px 0px 60px;
+        &-nav {
+            margin-left: 100px;
+        }
+    }
+    .cards {
+        padding: 40px 60px 0px 60px;
+        justify-content: space-between;
+        .Card {
+            padding: 40px 0;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .Container {
+        padding: 40px 60px 0px 60px;
+        margin-bottom: 60px;
+        &-subtitle {
+            &--line {
+                width: 40px;
+                height: 3px;
+                margin-right: 15px;
+            }
+            p {
+                font-size: 24px;
+            }
+        }
+        &-title {
+            margin-top: 20px;
+            h2 {
+                font-size: 60px;
+                line-height: 60px;
+            }
+        }
+        &-text {
+            p {
+                font-size: 20px;
+            }
+        }
+    } 
 }

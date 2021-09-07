@@ -13,7 +13,7 @@ import imageCard3 from './utils/images/card3.jpg';
   const header = null || document.getElementById('header');
   header.innerHTML = Header();
   const content = null || document.getElementById('content');
-  content.innerHTML = Home(imageHeader);
+  content.innerHTML = Home();
   const card1 = null || document.getElementById('card1');
   card1.innerHTML = Card(imageCard1);
   const card2 = null || document.getElementById('card2');
